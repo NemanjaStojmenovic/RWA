@@ -1,0 +1,169 @@
+.navbar
+{
+    background-color:rgb(87, 88, 84);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    height: 80px;
+}
+body
+{
+    background-color:rgb(59, 59, 57);
+}
+.divCar
+{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+.msg-to-user
+{
+    height: 50px;
+    background-color:rgb(247, 114, 6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav-item {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-decoration: none;
+    height: 30px;
+    background-color:rgb(117, 116, 115);
+    display: flex;
+    align-items: center;
+}
+
+.nav-item:hover {
+    opacity: 0.7;
+}
+
+.nav-image {
+    margin-right: 20px;
+    margin-left: 30px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-auto {
+    width: auto;
+}
+
+body {
+    margin: 0;
+}
+
+.advert-text {
+    font-size: 30px;
+}
+
+.filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.filter-select {
+    min-width: 150px;
+    margin-right: 40px;
+    background-color: orange;
+
+}
+.users-data
+{
+    display: flex;
+    flex-direction: column;
+    width:400px;
+    justify-content: flex-start;
+    margin-left:30px;
+    color:white;
+    
+
+}
+.car-image {
+    width: 100%;
+    height: auto;
+}
+
+.hidden {
+    display: none;
+}
+.visible{
+    display:flex;
+}
+.car-model{
+    margin-left: 500px;
+    font-family: fantasy;
+    font-size: 180%;
+    color:orange;
+}
+.car-desc{
+    margin-left: 500px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 120%;
+    color:white;    
+}
+.info-div{
+    display: flex;
+    flex-direction: row;
+}
+.car-desc-details{
+    margin-top:20px;
+    margin-left:50px;
+    border:solid orange 1px;
+    display: flex;
+    flex-direction: column;
+    width:500px;
+    height: auto;
+    font-size:150%;
+    color:white;
+}
+.reserve{
+    border:solid black 1px;
+    background-color:orange;
+    margin-top:10px;
+}
+.rent-button, .more-info-button{
+    margin-left: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+    height: 50px;
+    width:auto;
+    align-items: center;
+}
+.about ,.contact
+{
+    color:white;
+    font-size: 120%;
+    margin-left:20px;
+}
+.section
+{
+    height:500;
+    width:10000;
+    margin:20px;
+}
+.show-less-info
+{
+    background-color: orange;
+    align-items: flex-end;
+    margin-top:155px;
+}
+.check-div
+{
+    display: flex;
+    flex-direction: column;
+    color:white;
+}
+.reserved
+{
+    font-family: fantasy;
+    font-size: 140%;
+}

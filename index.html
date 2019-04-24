@@ -1,0 +1,67 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>RentACar!</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="slike/Logoo.png">
+  <!--style.css-->
+  <link rel="stylesheet" href="dizajn/style.css">
+</head>
+
+<body>
+  <div class="navbar">
+    <a href="#" class="h-100 nav-image"><img src="slike/Logoo.jpg" class="h-100 w-auto"></a>
+    <a class="nav-item" href='/about.html'>About</a>
+    <a class="nav-item" href='/contact.html'>Contact</a>
+  </div>
+  <div class="msg-to-user"></div>
+  <div class="filters">
+    <div class="filter-select">
+      <label for="from-place" >Choose the city:</label>
+      <select class="input-form" id="from-place">
+        <option value="Nis">Nis</option>
+        <option value="Beograd">Beograd</option>
+        <option value="Surdulica">Surdulica</option>
+        <option value="NoviSad">Novi sad</option>
+      </select>
+    </div>
+    <div>
+      <label><input class="type-of-car" type="checkbox" value="limuzina">Limuzina</label>
+    </div>
+    <div>
+      <label><input class="type-of-car" type="checkbox" value="Hatchback">Hatchback</label>
+    </div>
+    <div>
+      <label><input class="type-of-car" type="checkbox" value="OldTimer">Old timer</label>
+    </div>
+    <div>
+      <label><input class="type-of-car" type="checkbox" value="sport">Sport</label>
+    </div>
+    <div>
+      <label><input class="type-of-car" type="checkbox" value="kombi">Van</label>
+    </div>
+    <div">
+      <label><input class="type-of-car" type="checkbox" value="jeep">SUV</label>
+    </div>
+    <!-- <section class="filter-select">
+      <lsabel for="class">Type of car:</label>
+      <select class="input-form" id='typeOfCar'>
+        <option value="limuzina">Limuzina</option>
+        <option value="Hatchback">Hatchback</option>
+        <option value="OldTimer">Old timer</option>
+        <option value="sport">Sport</option>
+        <option value="kombi">Kombi</option>
+        <option value="jeep">Jeep</option>
+      </select>
+    </section> -->
+    <input type="submit" class="btn-search-car" id="dugme" value="SearchCar">
+  </div>
+  <div class="div-cars">
+  </div>
+  
+  <script src="bundle.js"></script>
+</body>
+
+</html>

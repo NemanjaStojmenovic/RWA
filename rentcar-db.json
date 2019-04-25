@@ -201,6 +201,24 @@
       "from": "2019-04-24",
       "to": "2019-04-24",
       "id": 33
+    },
+    {
+      "carId": 28,
+      "firstName": "Nemanja",
+      "lastName": "Stojmenovic",
+      "contactNumber": "0604445516",
+      "from": "2019-04-24",
+      "to": "2019-04-24",
+      "id": 34
+    },
+    {
+      "carId": 17,
+      "firstName": "Nemanja",
+      "lastName": "Stojmenovic",
+      "contactNumber": "0604445516",
+      "from": "2019-04-24",
+      "to": "2019-04-24",
+      "id": 35
     }
   ],
   "cars": [
@@ -632,13 +650,13 @@
       "cenaUEvrimaPoDanu": 18,
       "godinaProizvodnje": 2019,
       "vrstaGoriva": "dizel",
-      "karoserija": "sport",
+      "karoserija": "jeep",
       "maksimalnaBrzina": 240,
       "boja": "bela",
       "sitemUpozoravanjaNaSudar": "Da",
       "vrstaMenjaca": "manuelni",
       "snagaUkW": 130,
-      "slika": "slike/audi/audiR8.jpg",
+      "slika": "slike/audi/audiQ8.jpg",
       "opis": "Sportski auto,za brzu voznju"
     },
     {
@@ -651,13 +669,13 @@
       "cenaUEvrimaPoDanu": 18,
       "godinaProizvodnje": 2019,
       "vrstaGoriva": "dizel",
-      "karoserija": "sport",
+      "karoserija": "jeep",
       "maksimalnaBrzina": 240,
       "boja": "bela",
       "sitemUpozoravanjaNaSudar": "Da",
       "vrstaMenjaca": "manuelni",
       "snagaUkW": 130,
-      "slika": "slike/audi/audiQ8.jpg",
+      "slika": "slike/audi/audiR8.jpg",
       "opis": "Poslednja serija Audia"
     },
     {
@@ -670,7 +688,7 @@
       "cenaUEvrimaPoDanu": 18,
       "godinaProizvodnje": 2019,
       "vrstaGoriva": "dizel",
-      "karoserija": "sport",
+      "karoserija": "jeep",
       "maksimalnaBrzina": 240,
       "boja": "bela",
       "sitemUpozoravanjaNaSudar": "Da",

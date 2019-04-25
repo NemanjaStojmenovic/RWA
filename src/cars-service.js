@@ -73,6 +73,7 @@ export class CarsService {
             const rentButton = document.createElement("button");
             rentButton.innerHTML = "Rent a car";
             rentButton.className = "rent-button";
+            rentButton.classList.add("btn-style");
             divCar.appendChild(rentButton);
             const index = cars.findIndex(x => x.id == car.id);
             Rxjs.fromEvent(rentButton, "click")
@@ -84,6 +85,7 @@ export class CarsService {
             const moreInfoButton = document.createElement("button");
             moreInfoButton.innerHTML = "Show more info";
             moreInfoButton.className = "more-info-button";
+            moreInfoButton.classList.add("btn-style");
             divCar.appendChild(moreInfoButton);
             Rxjs.fromEvent(moreInfoButton, "click")
                 .subscribe(() => {
@@ -150,6 +152,7 @@ export class CarsService {
         const showLessInfo = document.createElement("button");
         showLessInfo.className = "show-less-info";
         showLessInfo.innerHTML = "Show less";
+        showLessInfo.classList.add("btn-search-car");
 
         Rxjs.fromEvent(showLessInfo, "click")
             .subscribe(() => {
@@ -228,6 +231,7 @@ export class CarsService {
         reserveButton.className = "reserve";
         reserveButton.innerHTML = "RENT";
         reserveButton.focus();
+        reserveButton.classList.add("btn-search-car");
 
 
         inputData.appendChild(firstName);

@@ -219,6 +219,24 @@
       "from": "2019-04-24",
       "to": "2019-04-24",
       "id": 35
+    },
+    {
+      "carId": 47,
+      "firstName": "Nemanja",
+      "lastName": "Stojmenovic",
+      "contactNumber": "0604445516",
+      "from": "2019-04-25",
+      "to": "2019-04-25",
+      "id": 36
+    },
+    {
+      "carId": 8,
+      "firstName": "Nemanja",
+      "lastName": "Stojmenovic",
+      "contactNumber": "0604445516",
+      "from": "2019-04-25",
+      "to": "2019-04-25",
+      "id": 37
     }
   ],
   "cars": [
@@ -656,7 +674,7 @@
       "sitemUpozoravanjaNaSudar": "Da",
       "vrstaMenjaca": "manuelni",
       "snagaUkW": 130,
-      "slika": "slike/audi/audiQ8.jpg",
+      "slika": "slike/audi/audiR8.jpg",
       "opis": "Sportski auto,za brzu voznju"
     },
     {
@@ -675,7 +693,7 @@
       "sitemUpozoravanjaNaSudar": "Da",
       "vrstaMenjaca": "manuelni",
       "snagaUkW": 130,
-      "slika": "slike/audi/audiR8.jpg",
+      "slika": "slike/audi/audiQ8.jpg",
       "opis": "Poslednja serija Audia"
     },
     {
@@ -713,7 +731,7 @@
       "sitemUpozoravanjaNaSudar": "Da",
       "vrstaMenjaca": "manuelni",
       "snagaUkW": 130,
-      "slika": "slike/bmw/bmwl8.jpg",
+      "slika": "slike/bmw/bmwI8.jpg",
       "opis": "Brz i mocan!"
     },
     {
@@ -732,7 +750,7 @@
       "sitemUpozoravanjaNaSudar": "Da",
       "vrstaMenjaca": "manuelni",
       "snagaUkW": 130,
-      "slika": "slike/bmw/bmwl8.jpg",
+      "slika": "slike/bmw/bmwI8.jpg",
       "opis": "Brz i mocan!"
     },
     {

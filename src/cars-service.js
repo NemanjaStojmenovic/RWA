@@ -5,16 +5,24 @@ import { Observable, from, zip } from "rxjs";
 import { take, filter, map, pairwise, scan } from "rxjs/operators";
 export class CarsService {
 
-    proba() {
+    /*proba() {
+        const $arrayOfImages=new Array();
+        $arrayOfImages[0]=new Image();
+        $arrayOfImages.src="slike/rent.jpg";
+        $arrayOfImages[1]=new Image();
+        $arrayOfImages.src="slike/logo.jpg"
+        $arrayOfImages[0]=new Image();
+        $arrayOfImages.src="slike/audiA6.jpg"
         const $timer = interval(500);
-        zip($niz, $timer).pipe
+        zip($arrayOfImages, $timer).pipe
             (
                 pairwise(),
-                scan((acc, value) => acc + 1)
+                scan((acc, value) => acc +"join us")
             )
-            .subscribe(x => console.log(x))
+            .subscribe(x => this.drawPics(x))
 
-    }
+    }*/
+    
     adverts() {
         const advert = document.getElementsByClassName("msg-to-user")[0];
         const msgToShow = document.createElement("label");
@@ -303,7 +311,7 @@ export class CarsService {
             infoDiv.appendChild(reservationInfo);
             setTimeout(() => {
                 reservationInfo.remove();
-            }, 5000);
+            }, 6000);
 
 
         }
